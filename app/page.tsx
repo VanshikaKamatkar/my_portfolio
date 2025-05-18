@@ -1,13 +1,12 @@
 import {CardSpotlightDemo} from "@/components/CardSpotlightDemo";
 // import Image from "next/image";
-import {Spotlight} from "@/components/ui/Spotlight.tsx";
-import GridBackgroundDemo from "@/components/GridBackgroundDemo";
-import { FloatingNavDemo } from "@/components/ui/FloatingNavDemo";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import RecentProjects from "@/components/RecentProjects";
 import Footer from "@/components/footer";
+import TechStack from "@/components/texhstack";
+import AboutSection from "@/components/about";
+import ContactMe from "@/components/contactme";
 
 
 
@@ -36,9 +35,12 @@ export default function Home() {
                 }
           ]}/>
           <CardSpotlightDemo/>
-          <Grid/>
-          <RecentProjects/>
+          <TechStack/>
+          <AboutSection/>
 
+          {/* <Grid/> */}
+          <RecentProjects/>
+          <ContactMe/>
           <Footer/>
 
  

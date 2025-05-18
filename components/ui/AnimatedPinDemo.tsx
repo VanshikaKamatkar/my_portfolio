@@ -36,7 +36,7 @@ export function AnimatedPinDemo({item}:{item:ProjectItem}) {
             <div className="flex">
             {
                     iconLists.map((icon,i)=>(
-                       <div className="bg-[#0C0E23] w-[35px] h-[35px] -ml-2 border flex items-center justify-center rounded-full"> <img className="w-[20px] h-[20px] rounded" src={icon} alt="icon"/></div>
+                       <div key={i} className="bg-[#0C0E23] w-[35px] h-[35px] -ml-2 border flex items-center justify-center rounded-full"> <img className="w-[20px] h-[20px] rounded" src={icon} alt="icon"/></div>
 
                     ))
                 }

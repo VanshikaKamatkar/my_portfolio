@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           I'm a learner passionate about web development and open to internships,
           collaborations, or any opportunity to grow. Let’s connect!
         </p>
-        <a
+        {/* <a
           href="mailto:prajaktamondhe31@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-2 bg-white/10 border border-white/20 rounded-lg text-sm text-white hover:bg-white/20 transition"
         >
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
-        </a>
+        </a> */}
         <div className="flex flex-row-reverse justify-between mt-10">
         <div className="mt-8 flex justify-center gap-4 text-xl">
           <a
