@@ -3,7 +3,7 @@ import React from "react";
 import { PinContainer } from "../ui/3d-pin";
 import { GoArrowUpRight } from "react-icons/go";
 type ProjectItem = {
-  id: string;
+  id: number;
   title: string;
   des: string;
   img: string;
