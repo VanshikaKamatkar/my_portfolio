@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-row-reverse justify-between mt-10">
         <div className="mt-8 flex justify-center gap-4 text-xl">
           <a
-            href="https://github.com/Prajakta3176"
+            href="https://github.com/VanshikaKamatkar"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/prajakta-mondhe-8b9533258/"
+            href="https://www.linkedin.com/in/vanshika-kamatkar-17556a28a/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
@@ -62,21 +62,21 @@ const Footer: React.FC = () => {
           >
             <FaTwitter />
           </a> */}
-          <a
+          {/* <a
             href="https://www.instagram.com/_prajakta_mondhe/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
           >
             <FaInstagram />
-          </a>
+          </a> */}
 
           
         </div>
 
         <div>
                 <p className="text-sm text-gray-600 mt-6">
-            © 2025 Prajakta Mondhe. All rights reserved.
+            © 2025 Vanshika Kamatkar. All rights reserved.
             </p>
           </div>
           </div>

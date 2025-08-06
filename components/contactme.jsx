@@ -25,8 +25,8 @@ export default function ContactMe() {
 
     emailjs
       .send(
-        "service_dbn806r",     // replace with your EmailJS service ID
-        "template_nch915e",    // replace with your EmailJS template ID
+        "service_dbn806r",    // replace with your EmailJS service ID
+        "template_vuf66qd",   // replace with your EmailJS template ID
         formData,
         "dVretoN2AIn4a69wE"      // replace with your EmailJS user/public key
       )
@@ -62,7 +62,7 @@ export default function ContactMe() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
-        className="w-full max-w-xl backdrop-blur-lg bg-white/5 border border-white/10 p-8 rounded-3xl shadow-2xl space-y-6 transition"
+        className="w-full max-w-5xl bg-red-500 backdrop-blur-lg bg-white/5 border border-white/10 p-8 rounded-3xl shadow-2xl space-y-6 transition"
       >
         {["name", "email", "subject", "message"].map((field, i) => (
           <motion.div

@@ -3,13 +3,6 @@ import React from 'react'
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { gridItems } from "@/data/index";
 const Grid = () => {
-
-
-
-    
-
-
-
   return (
     <section className='min-h-screen py-10'>
         <BentoGrid className="max-w-4xl mx-auto">
