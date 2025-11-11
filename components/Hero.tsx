@@ -29,7 +29,7 @@ export function Hero() {
           <Link href="#projects" className="bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-6 rounded-lg transition-colors">
             My Projects
           </Link>
-          <a href="/VanshikaKamatkarResume.pdf" download className="bg-transparent border border-purple-500 text-purple-400 hover:bg-purple-900/30 font-medium py-2 px-6 rounded-lg transition-colors">
+          <a href="/Vanshika Kamatkar Resume (23).pdf" download className="bg-transparent border border-purple-500 text-purple-400 hover:bg-purple-900/30 font-medium py-2 px-6 rounded-lg transition-colors">
             Resume
           </a>
         </div>
